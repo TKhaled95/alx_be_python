@@ -1,6 +1,6 @@
 #Ask the user to input two numbers (one at a time) using
-num1 = float(input("Please Enter the first number: "))
-num2 = float(input("Please Enter the second number: "))
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 #Ask for the type of operation they’d like to perform
 operation= input("Choose the operation (+, -, *, /): ")
 #Perform the Calculation Using Match Case:
