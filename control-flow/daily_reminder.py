@@ -21,4 +21,4 @@ if Time_Bound == "yes":
       message += " It requires immediate attention today!"
 else:
       message += " Consider completing it at your convenience."
-print ("/nReminder", message)
+print ("Reminder: ", message)
