@@ -1,7 +1,10 @@
 #Prompt for a Single Task:
+#User Prompt for a Task:
 Task = input("Enter your task : ")
-Time_Bound = input("Is it time-bound? (yes/no): ").lower()
+#User Prompt for a Priority:
 Priority = input("Priority (high, medium, low): ").lower()
+#User Prompt for a Time_Bound:
+Time_Bound = input("Is it time-bound? (yes/no): ").lower()
 #Process the Task Based on Priority and Time Sensitivity:
 match Priority:
     case "high":
