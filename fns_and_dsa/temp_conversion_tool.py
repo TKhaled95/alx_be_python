@@ -4,13 +4,13 @@ FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
 
 
 # Function to convert Fahrenheit to Celsius
-def convert_to_celsius(fahrenheit):
+def fahrenheit_to_celsius(fahrenheit):
     """Converts temperature from Fahrenheit to Celsius using the global conversion factor."""
     celsius = (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
     return celsius
 
 # Function to convert Celsius to Fahrenheit
-def convert_to_fahrenheit(celsius):
+def celsius_to_fahrenheit(celsius):
     """Converts temperature from Celsius to Fahrenheit using the global conversion factor."""
     fahrenheit = (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
     return fahrenheit
